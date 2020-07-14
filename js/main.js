@@ -9,10 +9,10 @@ if ('serviceWorker' in navigator) {
             // Register service worker js file or any file you work upon
 
         // for cache with individual file use service-worker.js
-        .register('../service-worker.js')
+//         .register('https://shubham000007.github.io/ServiceOffline/service-worker.js')
 
         // For Caching Whole site use cacheWholeSite.js
-//             .register('../cacheWholesite.js')
+            .register('https://shubham000007.github.io/ServiceOffline/cacheWholesite.js')
             .then(reg => console.log('Service Worker : Registered'))
             .catch(err => console.log(`Service Worker : Error : ${err}`))
     });
